@@ -1,0 +1,8 @@
+[package]
+name = "simplify_tags"
+version = "0.1.0"
+authors = ["David Lukes <dafydd.lukes@gmail.com>"]
+
+[dependencies]
+lazy_static = "1"
+regex = "0.2"
