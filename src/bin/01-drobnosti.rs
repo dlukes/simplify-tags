@@ -25,6 +25,7 @@ fn main() {
         // stačí reference na řádek; kromě ní ještě předáme referenci na zamčený bufferovaný STDOUT
         make_replacement(&mut stdout, &radek);
     }
+    stdout.flush();
 }
 
 // proměnná `radek` nemusí být `mut`, spíš je tu vhodné použít *shadowing* (= pomocí `let` vytvoříme

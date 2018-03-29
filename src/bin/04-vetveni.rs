@@ -78,4 +78,5 @@ fn main() {
         write!(stdout, "{}", replaced).expect("chyba při výpisu řádku");
         radek.clear();
     }
+    stdout.flush();
 }

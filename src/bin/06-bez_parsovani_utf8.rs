@@ -69,8 +69,11 @@ fn main() {
             } else {
                 replaced
             };
-            stdout.write(&replaced).expect("chyba při výpisu řádku");
+            stdout
+                .write_all(&replaced)
+                .expect("chyba při výpisu řádku");
         }
         radek.clear();
     }
+    stdout.flush();
 }

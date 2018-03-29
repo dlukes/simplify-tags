@@ -25,6 +25,7 @@ fn main() {
         // řetězec je po zpracování každého řádku zase potřeba vymazat
         radek.clear();
     }
+    stdout.flush();
 }
 
 fn make_replacement(stdout: &mut BufWriter<StdoutLock>, radek: &str) {

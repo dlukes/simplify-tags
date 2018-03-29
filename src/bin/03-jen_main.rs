@@ -53,4 +53,5 @@ fn main() {
         // `.clear()` potřebujeme vypůjčit *mutable* odkaz na `radek`, a obojí zároveň nejde.
         radek.clear();
     }
+    stdout.flush();
 }

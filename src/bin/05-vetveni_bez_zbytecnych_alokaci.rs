@@ -99,4 +99,5 @@ fn main() {
         }
         radek.clear();
     }
+    stdout.flush();
 }
