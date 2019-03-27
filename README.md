@@ -57,3 +57,5 @@ textu) hodně pomohly:
 - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook)
 - [Rust Performance Pitfalls](http://llogiq.github.io/2017/06/01/perf-pitfalls.html)
 - [Optimising string processing in Rust](https://lise-henry.github.io/articles/optimising_strings.html)
+- [Is Rust slower than Python at parsing files?](https://stackoverflow.com/questions/41390244/rust-slower-than-python-at-parsing-files)
+- [tipy od autora varianty grepu v Rustu](https://news.ycombinator.com/item?id=13268051)
